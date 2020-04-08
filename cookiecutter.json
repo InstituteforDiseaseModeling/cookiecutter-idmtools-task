@@ -1,0 +1,9 @@
+{
+  "full_name": "Clinton Collins",
+  "email": "ccollines@idmom.org",
+  "github_username": "devclinton",
+  "project_name": "IDMTools Task",
+  "task_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "A boilerplate for an idmtools model package",
+  "pypi_username": "{{ cookiecutter.github_username }}"
+}
