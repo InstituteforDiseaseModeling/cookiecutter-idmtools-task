@@ -1,6 +1,6 @@
 .PHONY: clean lint test coverage release-local dist release-staging release-staging-release-commit release-staging-minor
 IPY=python -c
-PACKAGE_NAME=idmtools_models
+PACKAGE_NAME=idmtools_task_{{task_name}}
 PY?=python
 PDS=$(PY) ../.dev_scripts/
 PDR=$(PDS)run.py
